@@ -53,12 +53,10 @@ const Contact = () => {
   return (
     <section id="contact" className="relative bg-slate-950 text-slate-100 py-16 px-6 overflow-hidden">
       
-      {/* Background Accent */}
       <div className="absolute inset-0 opacity-5 bg-[radial-gradient(#22c55e_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none" />
 
       <div className="max-w-4xl mx-auto relative z-10 space-y-10">
         
-        {/* Header */}
         <div className="space-y-3">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-mono tracking-wide">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
@@ -74,7 +72,6 @@ const Contact = () => {
           </p>
         </div>
 
-        {/* Contact Links Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {contactLinks.map((item) => (
             <a

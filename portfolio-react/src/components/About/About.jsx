@@ -6,12 +6,10 @@ const About = () => {
   return (
     <section id="about" className="relative bg-slate-950 text-slate-100 py-16 px-6 overflow-hidden">
       
-      {/* Background Grid Accent */}
       <div className="absolute inset-0 opacity-5 bg-[radial-gradient(#22c55e_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none" />
 
       <div className="max-w-5xl mx-auto relative z-10 space-y-12">
         
-        {/* Section Header */}
         <div className="space-y-2">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-mono tracking-wide">
             <span className="w-2 h-2 rounded-full bg-emerald-400" />
@@ -22,25 +20,12 @@ const About = () => {
           </h2>
         </div>
 
-        {/* Profile Content Grid */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 items-center">
           
-          {/* Round Profile Image */}
           <div className="md:col-span-5 flex justify-center">
             <div className="relative group">
-              {/* Outer Glow Ring */}
               <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-emerald-500 to-teal-500 opacity-30 group-hover:opacity-70 blur transition duration-300 pointer-events-none" />
               
-              {/* Avatar Container */}
-              {/* <div className="relative w-48 h-48 sm:w-60 sm:h-60 rounded-full border-2 border-emerald-500/40 p-1 bg-slate-900">
-                <img
-                  src={me} 
-                  alt="Lijo Joseph"
-                  className="w-full h-full rounded-full object-cover grayscale contrast-125 hover:grayscale-0 transition-all duration-300"
-                />
-              </div> */}
-
-
               <div className="relative w-56 h-[316px] sm:w-64 sm:h-[362px] [perspective:1000px] group">
       {/* Glow effect behind the card */}
       <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-emerald-500 to-teal-500 opacity-20 group-hover:opacity-60 blur transition duration-500 pointer-events-none" />

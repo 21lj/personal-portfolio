@@ -44,12 +44,10 @@ const Certifications = () => {
       id="certifications"
       className="relative overflow-hidden bg-slate-950 text-slate-100 py-16 px-6"
     >
-      {/* Background Accent */}
       <div className="absolute inset-0 opacity-5 bg-[radial-gradient(#22c55e_1px,transparent_1px)] [background-size:20px_20px] pointer-events-none" />
 
       <div className="relative z-10 max-w-4xl mx-auto space-y-8">
         
-        {/* Header */}
         <div className="space-y-3">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-mono tracking-wide">
             <span className="w-2 h-2 rounded-full bg-emerald-400" />
@@ -65,7 +63,6 @@ const Certifications = () => {
           </p>
         </div>
 
-        {/* Match Sheet Ledger / Row Style */}
         <div className="bg-slate-900/60 border border-slate-800 rounded-xl overflow-hidden backdrop-blur-md divide-y divide-slate-800">
           {certificationsData.map((cert, index) => (
             <a

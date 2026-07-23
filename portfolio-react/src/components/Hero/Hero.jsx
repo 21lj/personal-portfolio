@@ -6,7 +6,6 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen overflow-hidden bg-slate-950 text-white">
       
-      {/* Background Image */}
       <div className="absolute inset-0">
         <img
           src={footballBg}
@@ -16,25 +15,20 @@ const Hero = () => {
         <div className="absolute inset-0 bg-slate-950/85" />
       </div>
 
-      {/* Background Grid */}
       <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#22c55e_1px,transparent_1px)] [background-size:24px_24px]" />
 
-      {/* Glow Effect */}
       <div className="absolute -top-40 -left-40 h-96 w-96 rounded-full bg-emerald-500/10 blur-3xl" />
       <div className="absolute -bottom-40 -right-40 h-96 w-96 rounded-full bg-emerald-500/10 blur-3xl" />
 
-      {/* Content */}
       <div className="relative z-10 flex min-h-screen items-center px-6 py-16 sm:px-10 lg:px-20">
         <div className="mx-auto w-full max-w-6xl">
           <div className="max-w-3xl text-center lg:text-left">
 
-            {/* Badge */}
             <div className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-2 text-xs font-mono tracking-wider text-emerald-400">
               <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-400"></span>
               FOOTBALL ANALYTICS ENTHUSIAST
             </div>
 
-            {/* Heading */}
             <h1 className="mt-6 text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
               Lijo Joseph
             </h1>
@@ -43,7 +37,6 @@ const Hero = () => {
               Tactical Breakdown & Data Modeling
             </h2>
 
-            {/* Description */}
             <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-slate-400 sm:text-lg lg:mx-0">
               Passionate about breaking down pitch dynamics, modern pressing
               schemes, and team telemetry. Exploring advanced match metrics
@@ -51,7 +44,6 @@ const Hero = () => {
               tactical stories.
             </p>
 
-            {/* Buttons */}
             <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:justify-center lg:justify-start">
               
               <a
